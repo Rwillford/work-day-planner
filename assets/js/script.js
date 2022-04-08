@@ -8,7 +8,7 @@ $(document).ready(function(){
         
         var textValue = $(this).siblings(".description").val();
         var timeBlock = $(this).parent().attr("id");
-
+        //saving it in localstorage
         localStorage.setItem(timeBlock, textValue);
 
    })
@@ -27,7 +27,6 @@ $(document).ready(function(){
                 $(this).addClass("present")
             } else {
                 $(this).removeClass("past", "present");
-               // $(this).removeClass("present");
                 $(this).addClass("future")
             }
         })

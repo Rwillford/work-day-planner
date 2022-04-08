@@ -1,9 +1,10 @@
+/*Main setup*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/*Task input*/
 textarea{
   background: transparent;
   border: none;
@@ -12,7 +13,7 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/*Header*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -20,7 +21,7 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-
+/*Planner area*/
 .description{
   white-space: pre-wrap;
 }
