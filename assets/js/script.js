@@ -33,7 +33,7 @@ $(document).ready(function(){
 
    }
 
-   //saving the task to localstorage 
+   //For statement to get task from Local storage
    for(var i = 9; i < 17; i++){
    // $('#' +[i]+ '.description').val(localStorage.getItem([i]))
    // doing same thing as line above but using interpolation
